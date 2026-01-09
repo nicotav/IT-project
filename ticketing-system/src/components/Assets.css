@@ -1,0 +1,56 @@
+.assets-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.assets-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-xl);
+}
+
+.assets-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-xs) 0;
+}
+
+.assets-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.assets-filters {
+  margin-bottom: var(--space-lg);
+}
+
+.assets-list {
+  overflow-x: auto;
+}
+
+.asset-id {
+  font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary-600);
+}
+
+.asset-name {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-weight: 500;
+}
+
+.warranty-valid {
+  color: var(--success-600);
+  font-weight: 500;
+}
+
+.warranty-expired {
+  color: var(--error-600);
+  font-weight: 500;
+}
