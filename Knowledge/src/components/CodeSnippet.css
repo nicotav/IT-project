@@ -1,0 +1,79 @@
+.code-snippet {
+  margin: 1.5rem 0;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #1e1e1e;
+}
+
+.code-snippet-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: #2d2d2d;
+  border-bottom: 1px solid #3e3e42;
+  gap: 1rem;
+}
+
+.code-snippet-filename {
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  color: #d4d4d4;
+  font-weight: 500;
+}
+
+.code-snippet-language {
+  font-size: 0.75rem;
+  color: #9cdcfe;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-left: auto;
+}
+
+.code-snippet-copy-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.code-snippet-copy-btn:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.code-snippet-copy-btn:active {
+  transform: translateY(0);
+}
+
+.code-snippet-content {
+  overflow-x: auto;
+}
+
+/* Scrollbar styling for code content */
+.code-snippet-content::-webkit-scrollbar {
+  height: 8px;
+}
+
+.code-snippet-content::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+.code-snippet-content::-webkit-scrollbar-thumb {
+  background: #3e3e42;
+  border-radius: 4px;
+}
+
+.code-snippet-content::-webkit-scrollbar-thumb:hover {
+  background: #4e4e52;
+}
