@@ -1,0 +1,106 @@
+.panel {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #334155;
+}
+
+.panel-header h2 {
+  color: #f1f5f9;
+  font-size: 1.3rem;
+}
+
+.panel-count {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  background: #334155;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.service-card {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.25rem;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-2px);
+  border-color: #475569;
+}
+
+.service-header {
+  margin-bottom: 0.75rem;
+}
+
+.service-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-icon {
+  font-size: 1rem;
+}
+
+.service-name {
+  color: #f1f5f9;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.service-metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.service-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metric-label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.metric-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.service-footer {
+  padding-top: 1rem;
+  border-top: 1px solid #334155;
+}
+
+.last-check {
+  font-size: 0.85rem;
+  color: #64748b;
+}

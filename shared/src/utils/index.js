@@ -1,0 +1,1 @@
+export { MockDataManager, mockDataManager } from './mockData.js'

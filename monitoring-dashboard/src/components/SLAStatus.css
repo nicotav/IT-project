@@ -1,0 +1,108 @@
+.sla-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sla-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sla-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.sla-circle svg {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(-1);
+}
+
+.sla-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sla-value .value {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f1f5f9;
+  line-height: 1;
+}
+
+.sla-value .label {
+  display: block;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.sla-target {
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+.sla-target strong {
+  color: #f1f5f9;
+}
+
+.sla-metrics {
+  display: grid;
+  gap: 1rem;
+}
+
+.sla-metric {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+}
+
+.sla-metric .metric-icon {
+  font-size: 1.5rem;
+}
+
+.sla-metric .metric-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f1f5f9;
+  line-height: 1;
+}
+
+.sla-metric .metric-label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.sla-status {
+  padding: 0.75rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.sla-status.on-track {
+  background: #10b98120;
+  color: #10b981;
+  border: 1px solid #10b981;
+}
+
+.sla-status.at-risk {
+  background: #ef444420;
+  color: #ef4444;
+  border: 1px solid #ef4444;
+}
