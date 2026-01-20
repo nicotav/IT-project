@@ -1,0 +1,46 @@
+{
+  "mode": "Development",
+  "lastUpdated": "2026-01-19 23:46:16",
+  "services": [
+    {
+      "name": "Backend API",
+      "pid": 10736,
+      "url": "http://localhost:8000",
+      "jobId": 201,
+      "logFile": "C:\\Development\\2026\\portafolio\\logs\\Backend-API.log",
+      "port": 8000
+    },
+    {
+      "name": "Access Center",
+      "pid": null,
+      "url": "http://localhost:3000",
+      "jobId": 203,
+      "logFile": "C:\\Development\\2026\\portafolio\\logs\\Access-Center.log",
+      "port": 3000
+    },
+    {
+      "name": "Knowledge Base",
+      "pid": 8464,
+      "url": "http://localhost:3001",
+      "jobId": 207,
+      "logFile": "C:\\Development\\2026\\portafolio\\logs\\Knowledge-Base.log",
+      "port": 3001
+    },
+    {
+      "name": "Monitoring Dashboard",
+      "pid": 4628,
+      "url": "http://localhost:3002",
+      "jobId": 211,
+      "logFile": "C:\\Development\\2026\\portafolio\\logs\\Monitoring-Dashboard.log",
+      "port": 3002
+    },
+    {
+      "name": "Ticketing System",
+      "pid": 24452,
+      "url": "http://localhost:3003",
+      "jobId": 215,
+      "logFile": "C:\\Development\\2026\\portafolio\\logs\\Ticketing-System.log",
+      "port": 3003
+    }
+  ]
+}
